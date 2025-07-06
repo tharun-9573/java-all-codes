@@ -1,0 +1,3309 @@
+computer -> it is an electronic machine
+electrical  -> fans 
+electronic (chip) -> 
+
+communication 
+human -> computer 
+
+input  ->    language   -> output 
+
+on off
+
+binary language -> 1 and 0 (constant letters)
+
+1^0 = 1
+1^1 =1
+1^2=1
+1^3 =1
+
+
+
+0^0 =0
+0^1 =0
+
+0^0=0
+
+
+
+2, 3
+
+2^0 = 1
+
+2^1 = 2
+
+2^2 = 4
+
+2^3 =8
+
+
+3^0 =1
+
+3^3 =27
+
+3^2 =9
+
+ on =1
+ off =0
+
+
+why don't we speak in binary language?
+
+as a human we don't have that much of capacity 
+
+
+01 101010101010
+
+hello
+
+01010101 0101010 01010101 01010101 0101010
+
+
+human (English)
+
+computer (binary)
+
+translator (new language) can understand both languages it can convey and receive
+
+programming languages (human readable format) -> compiler(software)
+
+why do we need programming languages?
+
+automation (machine) -. instructions (programming language) -> software 
+
+what is software?
+
+set of programs 
+
+programming language -> programs -> software
+
+calculator ->I will just pass the value you will give result
+
+voting -> online registrations platform 
+
+every software is specifically designed for specific task
+
+why many languages in the world?
+
+
+c, java, python, ruby, cobol, fortrain
+
+different types of software with different technologies only lang is not sufficient
+
+
+c -> machine language (pen drive)
+
+java -> enterprise app, ML, cyber security, telephonic communication
+
+python ->  in built function
+
+java + oops 
+
+
+
+c : Denis Ritche
+
+# include <stdio.h>
+
+
+hello 1010101 0101001 
+
+
+history 
+
+java - core java , Advanced java (collection frame work, JDBC)
+
+how to write logics
+
+
+Day 2:
+
+binary language
+on 1 or off 0 
+
+
+Decimal number system (0-9)
+
+binary number system (1,0)
+
+
+decimal to binary:
+
+1, 2, ....
+
+method: keep dividing the number by 2 and record the reminder up to no number divided by 2
+
+13 % 2 = 6    rem  1
+
+6  % 2 = 3    rem  0
+
+3  % 2 = 1    rem  1
+
+                    1
+binary 1101
+
+20
+
+
+Binary to decimal conversion
+
+
+20 -> 10100 -> 20
+
+we use powers
+
+1011 -> ?
+  
+
+2 powers
+
+
+1  0  1  1
+
+
+
+
+10110
+
+
+
+ hexadecimal representation (0-9 , A,B,C,D,E,F)
+
+ASCII -> AMERICAN STANDARD CODE FOR INFORMATION INTERCHANGE
+
+QWERTY KEYBOARD
+
+0-255 (256)
+
+A -> 65  TO  Z  -> 90
+
+a -> 97  to z -> 122
+
+
+hello ->
+
+h -> 104 -> 1100111
+e -> 101 -> 0110010
+l -> 108 -> 0110110
+l -> 108 -> 0110110
+o -> 111 -> 01101111
+
+what happens when we type print hello world
+
+1. computer converts the characters in to specific ASCII codes
+2. The correspondent ASCII codes converted in to binary codes
+
+
+code -> source code (human readable format)
+
+   programming language
+
+code -> machine code (1 0)
+
+java language converts text in to binary via encoding (like ASCII or UTF-8)
+
+
+task :
+
+convert dec to binary
+
+10
+100
+120
+135
+
+convert bin to dec
+
+10110
+11010
+00000
+11111
+00001
+
+text to binary
+
+java
+
+code
+
+Day 3:
+
+prog language is a mediator (human, machine) -> translator
+
+i am telugu     -> (MAN) telugu and english
+u r  English 
+
+translators : it is a software they convert human readable code(source code) to Machine readable code (Byte code)
+
+Compiler
+
+Interpreter
+
+Assembler
+
+
+1. Compiler:
+
+Translates entire source code at once in to machine code(byte code)
+
+generates a file (.exe (executable files), .class(java)) before running.
+
+Fast execution but slow translation (compile once run many)
+
+examples: c, c++, Java
+
+
+2. Interpreter:
+
+Translates line by line and runs immediately.
+
+no separate output file
+
+slower execution but faster testing/running
+
+ex: python , javaScript
+
+
+3. Assembler:
+
+converts assembly code (Assembly language) in to machine code.
+
+to run only assembly language
+ex: Assembly language
+
+
+
+c program:
+
+#include<stdio.h>
+main(){
+printf("hello world");
+}
+
+compilers -> editors (Turbo C)
+save filename.c
+
+f9 -> compile 
+
+THARUN.c -> THARUN.exe 1  1 1  10101010101011 11 1 
+
+f11 -> run 
+
+byte code file  -> output 
+
+
+
+python program:
+
+print("hello world");
+
+interpreter (IDLE)
+
+IDE -> Integrated development environment that provides facilities for software development
+
+IDLE -> Integrated Development Learning Environment (python) 
+
+code -> byte code
+
+Types of programming ->
+
+two levels
+
+low level -> close to machine (less user readable)  ex: Assembly code, Machine code
+
+high level -> Human readable, easier to learn, OOps ex: python, java, c++
+
+
+programming paradigm/ Approaches / different ways:
+
+1. procedural : step by step ex: c
+
+2. Object Oriented : based on classes and objects ex: java, c++, py
+
+3. Functional : uses only function based lang ex: Haskell, Lisp
+
+4. Scripting: light weighted rendering languages ex: java script
+
+
+bits Byte
+
+bits (1,0)
+
+bit -. binary digit
+
+1 (on, true)
+
+0 (false, OFF)
+
+Byte:
+
+1 Byte = 8 bits
+
+20 -> 00000101
+
+
+
+1 nibble = 4 bits
+
+
+
+
+
+Day 4:
+
+early 1990s sun micro systems  TV and electronic gadgets -> JAVA
+acronym -> just another virtual analyser 
+
+1991 -> James Gosling (Green project)
+
+1995 -> oak (oak tree) -> java (Java coffee)
+
+1996 -> first java version (java 1.0)
+
+2009 -> oracle 
+
+
+why was java needed?
+
+c/c++ platform dependency -> write once compile every where.
+
+
+java ->
+
+write Once run anywhere (WORA)
+
+
+
+features of java:
+
+Object oriented 
+
+platform independent
+
+secure 
+
+Robust (strong)
+
+multi threaded language 
+
+High performance
+
+
+Popular Apps & Platforms Built with java
+
+1. Android Apps:
+
+   Spotify
+   twitter (X)
+   Signal (private messaging app)
+
+2. enterprise & web applications.
+
+  LinkedIn 
+  AWS
+  Netflix
+  uber
+
+Banking and finance:
+
+  HDFC, ICICI
+
+
+JAVA Architecture:
+
+3 components :
+
+JDK (Java Development Kit)
+
+JRE (Java Runtime Environment)
+
+JVM (Java Virtual Machine)
+
+
+1. JDK :
+
+full package developer needs to write java programs.
+
+JRE 
+
+Java  Compiler
+
+Development tools
+
+used to develop 
+
+2. JRE :
+
+it is the environment needed to run java applications
+
+JVM 
+
+libraries and classes
+
+execute code
+
+3. JVM:
+
+it is the heart of java
+
+converts byte code into machine code.
+
+printf("hello");
+
+10101010 11001010 101010100 101010101 10100100 10100101
+
+it makes java platform independent
+
+jvm is a platform dependent
+
+
+4. why byte code?
+
+1. platfrom independent
+
+2. once compiled it can run any where (WORA) -> JVM
+
+
+
+is java compiled language or interpreted language?
+  
+both compiled and interpreted language :
+
+JVM
+
+
+1. compilation phase:
+
+
+   java code -> .java 
+ 
+   javac filename.java
+
+   a byte code generated (.class)
+
+2. Interpretation phase:
+
+JVM read .class file
+ 
+java (run)
+
+interpret byte code
+
+output
+
+
+java is a hybrid language 
+
+
+
+Operating system:
+
+system software it acts intermediate between user and hardware
+
+windows
+Linux
+
+Mac Os
+
+ios
+
+android
+
+
+Day 5:
+java is a case sensitive language
+
+Structure of Java:
+
+  Syntax:  syntax is also called a rules to follow.
+
+public class <filename>{ //file name that u saved
+
+  public static void main(String args[]){
+
+   
+
+  }
+
+} 
+
+
+
+
+public class Tharunjava{
+
+  public static void main(String args[]){
+   
+
+
+}
+
+}
+
+public static void main(String args[]){     }  -> Main method it must to write main method to get output from the java code
+
+the java program start execution from main .
+
+
+output:
+
+
+java have an output statement 
+
+
+; : it tells us the line ends / terminates
+
+
+syntax:  System.out.println("");
+hey system could you please print my output on your screen
+
+S must be capital in System
+
+
+
+
+
+problem :
+
+
+yourname.java
+
+output:  my name is yourname
+
+
+
+different types of output statements in java
+
+
+1. System.out.println();
+
+2. System.out.print();
+
+3. System.out.printf();
+
+
+1.println() ln stands for newline always prints in new line. the function first print the text next give a new line break. it same to same works as '\n'
+
+2. print () prints always in same line
+
+3. printf()  print format ("%d,%f,%c,%s,%x" these are all called as format specifiers)
+
+    to customize our print statement
+
+
+
+task 1: print a small story
+
+task 2: print  list of items using println
+
+task 3:  print  list of items using print
+
+task 4: customize your print statement 
+
+task 5: take a file name  now write program for that file (ex THARUN.java)
+
+
+
+Day 6:
+
+
+Variables and data types:
+
+
+variable:
+
+it is a container to store values.
+
+temporarily
+
+
+Rules to write variable:
+
+
+1. all variables must start with characters(A_Z, a-z)
+2. the variable name cannot starts with digits or any special characters
+3. variable includes characters(a-z) , digits (0-9), under score ( _ )
+4. in variable we are not allowed to use keywords
+
+the process of naming a variable and placing a type before it is called as declaration.
+after declaring variables the process of placing a value in a variable is called as initialization.
+
+variables:
+
+local scope : with in the specific block 
+
+global scope: works across the program block 
+
+
+name : my name is ....
+
+my name is a
+ my name is b
+
+
+
+name : THARUN
+age : 20
+cgpa : 7.5
+
+
+Data type:
+
+
+syntax:   <type_name> variablename = value;
+
+           int age=20;
+
+data type is used to define the type of the data that the variable stores.
+
+
+1. primitive :
+
+these types holds only single value in a variable at a time
+
+Integer :
+
+used to store numbers with out decimals
+
+Byte  : to store small range integers (-128 to +127)    : byte
+
+short : medium integers                                  : short
+
+int : common type of data type                            : int   // default value for int is 0
+
+long : Big integers                                       : long
+        while storing long values in this data type we need to place 'L' at the end of the value;
+
+real:
+
+character:
+
+Boolean:
+
+
+2. non primitive:
+
+are used to store multiple values in a variable
+
+task :
+
+declare several variables using rules
+
+declare variables with different data types place several range of values identify the differences.
+
+
+
+Day 7:
+
+Real : the numbers with decimal points
+
+
+here the limit tells about precision points (the points after the decimal)
+
+float  + 3.4e - 0.38 to +3.4e + 0.38 (up to one precision point only one value after decimal) 1.1, 2.3 (6-7)
+       -                -
+default value : 0.0f
+
+while initializing float we must place 'f' or 'F' at the end of the value (ex : 1.11f)
+syntax : float
+
+
+double same as float but we can store more larger numbers than float (15-16)
+
+we can give 'd' or 'D' or not
+
+default value : 0.0d
+
+syntax: double
+
+
+these data types if a value range cross they uses the letter 'E or e' to represent the number
+
+
+
+
+3. Character data types:
+
+    a character can be anything that enclosed in single quotes.
+    
+    it can be digit, alphabet, special character, symbols.
+
+   it is a primitive data type used to store single character.
+
+  it stores them as ASCII codes.
+
+ex: a X  'a' _/
+
+syntax: char
+
+why single quote only not double quote?
+
+
+single quotes are always used to represent single character.
+
+double quotes are used to represent more than one character.
+
+ character default value : /u000 (null)
+
+4. Boolean :
+
+  
+It is a primitive data type that can only hold two types of values they are:
+
+true
+
+false
+
+default value : false
+
+they are used with conditional statements:
+
+syntax: boolean
+
+
+int : 4 bytes
+
+long : 8 bytes
+
+float : 4 bytes
+
+double : 8 bytes
+
+character : 2 bytes
+
+Boolean : 1 byte
+
+
+
+task :
+
+write examples for data types
+
+print all default values
+
+write code for several ascii codes  (ex: char a=65 -> A ex2: a=67 -> C) write code with different (20 )types of ASCII codes
+
+
+Day 8:
+
+Operators:
+
+
+what is operator:
+
+the operator is a symbol that tells compiler to preform specific operation.
+
+
+to perform an operation we need operator and operands.
+
+operator: symbol (Ex: +)
+
+operand : the variable those use the operator ( a+b-> a & b are operands)
+
+
+classification of operators in java:
+
+1. unary operators : the operators can have only one operand ( +a )
+
+2. binary operators : the operators works with two operands ( a + b, a*b)
+
+3. ternary operators : these operators can have three operands or more than three.
+
+
+
+types of several operators in java:
+
+1. Arithmetic operators
+
+2. Relational operators
+
+3. Logical operators
+
+4. Assignment Operators
+
+5. Increment / decrement operators / unary operators
+
+6. Bitwise operators
+
+7. Ternary operators
+
+---------------------------------------------------------
+
+1. Arithmetic operators:  Binary (they must have two operands )
+
+these operators are used to perform arithmetical operations (Mathematical operations)
+
+A. + -> Addition : used to add two numbers (a+b)
+
+B. - -> Subtraction: used to subtract two numbers (a-b)
+
+c. * -> Multiplication  used to multiply two numbers (a*b) (* -> asterisk)
+
+D. / -> Division       this is used to get quotient as a result : 30/10 = 3
+
+E. % -> Modulo division  this is used to get reminder as a result
+
+do multiplication with out asterisk
+
+ 2*3 =6
+
+ 2+2+2 =6 (repetitive addition)
+
+  3*5 =15
+
+ 3+3+3+3+3
+
+2. Relational Operators:
+
+ Binary operator type
+
+the operators are used to compare two values they always returns true or false.
+
+(a>b) -> condition
+
+A . == equal to (return true if both values are equal else false )
+
+b . != Not equal to (if both values are equal false else true)
+
+c . > greater than (returns true if  left side operand value is bigger than right side else false)
+
+D . < Less than (return true if left hand side value less than right hand side else false)
+
+E . >= Greater than or equal to (return true if left hand side value is bigger than right hand side or also return true if both values are equal else false)
+
+F . <= Less Than or equal to (return true if left hand side value less than right hand side value or both are equal else false)
+
+
+3.Logical Operators:
+  
+Logical operators are used to combine multiple conditions and return as a Boolean result (True or False)
+
+A. && (ampersand &) -> Logical AND  -> returns true if both conditions are true else false) 
+
+B. || (| -> pipe symbol ) -> Local OR -> Returns true if any one condition is true , returns false if both conditions are false
+
+C. ! (! exclamatory mark) -> Logical NOT (reverse the condition true -> false, False -> true)
+
+
+Day 9:
+
+4.Assignment operators:
+
+
+These operators are used to assign values to variables. the most common assignment operator is '='
+
+A. = Assign   ex: a=10
+
+B. += Add and assign  ex: a+=5 (a=a+5) -> 15
+
+c. -= subtract and assign ex: a-=5 (a=a-5) -> (a=15-5 -> 10)
+
+d. *= Multiply and assign  ex: a*=2 (a=a*2) -> (20)
+
+e. /= divide and assign (quotient)    ex: a/=2 => a=a/2 -> 20/2  ->10
+
+f. %= modulo division and assign(reminder) ex: a%=2 -> a=a%2 -> 10%2-> 0
+
+Swapping of two numbers:
+
+
+a=10, b=20;
+
+
+output: b=10, a=20;
+
+1st method : using temporary variable:
+
+
+temp=a; temp=10
+
+a=b;    a=20
+
+b=temp
+
+2nd method: with out using temporary variable
+
+using arithmetic operators:
+
+a=5,b=10;
+
+a=a+b;  5+10 -> 15
+
+b=a-b;  15-10 -> 5
+
+a=a-b;   15-5 -> 10
+
+
+5: increment /decrement operators:
+
+unary operators :
+
+they only have one operand.
+
+A.  Increment (++)(+1)
+    
+    Pre increment (++variable)
+    
+    post increment (variable ++)
+
+B. Decrement (--)(-1)
+   
+   pre decrement (--variable)
+  
+   post decrement (variable --)
+
+these operators are used to add one (+1) or remove one(-1) from the variable at a time.
+
+pre increment:  first  the incremented then after assigns 
+
+ a=10, 
+ b=++a; b=11, a=11
+
+post increment : first value assigns then after the variable value increments
+
+a=10
+
+b=a++ // b=10, a=11
+
+
+pre decrement : first value decrements the after assigns:
+
+ a=10
+
+ b=--a;
+  
+b=9, a=9
+
+post decrement:
+  
+  a=10
+  b=a--;
+  b=10, a=9
+
+
+6: bitwise operators:
+
+ these operators are used with bits(1,0) 
+  
+ a. & (Bitwise AND)
+
+ b. | (Bitwise OR)
+ 
+ c. ^ (Bitwise XOR)
+
+ d. ~ (Bitwise NOT)
+
+ e.  << (left shift)
+
+ f.  >> (right shift)
+  
+  a=5, b=3;
+
+  5-> 0 1 0 1
+  3-> 0 0 1 1
+
+ a & b
+   
+0101
+0011
+----
+0001 -> decimal conversion -> 1
+
+a|b ->
+
+0101
+0011
+----
+0111 -> decimal conversion (7)
+
+a^b = 1 if two bits are different if two bits are equal 0
+
+0101
+0011
+----
+0110 -> decimal conversion-> (6)
+
+
+<< shift bits to left and fills with 0s on the right
+
+a=5
+
+a<<1
+
+ 0 1 0 1 <<1
+  
+
+1010 -> decimal conversion 10
+
+
+>> shift bits to right
+
+a>>1
+
+1010 >>1
+
+7: Ternary Operator:
+
+short hand IF else conditions
+
+the one and only operator that takes 3 operands
+
+syntax:  condition ? expression1 (if condition true)  : expression2(if condition false) ;
+
+biggest of two numbers:
+
+a=10, b=5;
+
+
+  big= (a>b)? a : b;
+  
+System.out.println("biggest number is: "+big);
+
+
+Day 10: Control structures/control statements:
+
+used to control the flow of execution
+
+they are of three types:
+
+1. conditional statements/ branching statements / decision making statements
+
+2. looping statements/ iterative statements
+
+3. jumping / unconditional statements
+
+ 
+
+1. conditional statements :
+
+ they will let a program decide what to do when to do based on condition. 
+  
+  A. if statement
+  B. if - else statement
+  C. if -else - if (ladder if) 
+  D. Nested if statement
+  E. switch Case
+
+    A. if statement:
+       this statement executes only if the condition is true.
+     
+       Syntax:  if ( condition  ){
+                   
+                    //statements to execute if only the condition is true
+
+                  }
+
+task: design a voting system if a person is registering check his age if his age is greater than or equal to 18 years allow him to register otherwise tell me come after getting age 18 or tell him sorry child.
+
+            int age = 18;    
+            if(age>=18) {
+               
+                statement
+              }      
+   
+       B. if-else:
+
+         this statement have two blocks the if and else blocks. If block executes only if the condition is true. Else executes when only the if condition is false. 
+   note: else block must do not have any condition
+       we cant write else with out if.
+         Syntax:   if(condition){
+                     //statements to execute if only the condition is true
+                     }
+                    else{
+
+                      //statement to execute if condition is false
+                     }
+
+      C. if -else- if (ladder if):
+         use this statement where there are multiple conditions to check. it have one more condition else if block
+
+note: else if block have condition we can write number of else if conditions.
+    
+     it executes when the condition is false in if statement.
+
+      Syntax:  if(condition){
+
+                 }
+                else if(condition){
+
+                   //statements to execute if condition fails.
+                 }
+               else if(condition){
+                     //statements to execute if , else if condition fails.
+                }
+               else{
+                 
+                 }
+
+task: design a grading system in that take person total marks give the grades to them conditions:
+     >=90 => grade A++
+     >=75 => grade A+
+     >=60 => grade A
+     <60  => fail
+
+        
+       D: nested if:
+      
+         if inside another if.
+  
+
+         Syntax:  if(){
+
+                      if(){
+                              if(){
+
+                                   } 
+                                else{
+                                   
+                                    }
+                           }
+                        else{
+                           }
+                 }
+                else{
+                 }
+
+
+Day11:
+
+check whether a number is positive neg or zero
+
+input : an integer
+
+a number greater than 0 is positive >0
+
+a number less than 0 <0
+
+a number is 0 if its not a +ve or -ve
+
+
+check whether the number is even or odd:
+
+
+integer
+
+an even number is a number if its divided by 2 it must result 0 as a reminder.
+
+21%2 
+
+
+greatest of 3 numbers:
+
+ 
+int a, b, c ;
+
+
+
+leap year:
+
+its divisible by 4
+
+but not divisible by 100 unless its also divisible by 400
+
+
+(year %4==0 && year%100!=0) || (year%400==0)
+
+
+
+Looping statements:
+
+looping allows us to repeat a block of code multiple times until a condition satisfy for reducing code duplication
+
+types of loops in java:
+
+while
+
+do while
+
+for 
+
+for each
+
+1. while loop:
+
+it is an entry control loop
+
+it first checks condition if the condition satisfy then it will in to block of code other wise it will exit.
+
+          initialization
+syntax:  while(condition){
+
+             //true statements
+           incr/decr
+
+           }
+
+write a program to print 1-10 numbers using while loop
+
+
+   int i =1;
+
+   
+
+Do while:
+
+it is an exit control loop
+
+executes at least once , because it checks the condition after the block execution
+
+it first enter in to block then after it checks condition
+
+
+syntax:
+
+      do{
+
+       //execute code
+
+        }
+
+        while(condition);
+
+
+
+day 12:
+
+For:
+
+ for is an looping statement in java used to iterate over multiple statements until condition satisfy. It have three parts in it:
+
+Syntax:  for (initialization ; condition ; incre/decre){
+
+             //executable block
+             }
+
+      parts breakdown:
+          initialization: it runs only once (int i=0)
+          condition: checked before each iteration (i<=5)
+          incr/decr : runs after each iteration.
+
+
+
+
+3.Jumping statements/unconditional statements:
+
+  jumping statements are the statements they are used to maintain the flow of looping statements.
+
+
+   they are of three types:
+   
+    break
+    continue
+    return
+
+
+1.Break statement:
+
+used to terminate a loop or switch case early based on condition.
+
+  break syntax: 
+
+     if(condition){
+      
+        break;
+    }
+
+
+
+exit loop when number is 5
+
+
+2. continue:
+
+skips the iteration  and continues with the next one.
+
+does not terminate loop.
+
+
+
+write a program to print multiplication table for given number
+
+n-5
+
+5 x 1 =5
+5 x 2 =10
+
+
+
+5 x 10 =50
+
+
+
+n=5
+
+*****
+*****
+*****
+*****
+*****
+
+patterns always use two for loops outer for loop and inner for loop a loop inside another loop(nested looping) 
+
+outer for loop -> rows
+
+inner for loop -> columns
+
+
+1234
+1234
+1234
+1234
+
+
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Day 13:
+
+switch - case  : It is a conditional statement/ branching statement
+
+switch statement which allows you to choose one action from many options on a single variables value.
+
+it is an alternative way to writing many if else blocks.
+
+switch is used for menu driven applications.
+
+restaurant:
+ menu:
+
+1.chicken
+2.paneer
+3.pizza
+
+1
+
+chicken ordered successfully
+
+
+Basic syntax:
+
+ switch (expression/variable/value){
+     
+         case value1:
+              
+                 code block
+                 
+                  break;
+         case value2:
+                 code block
+                   break;
+        case n:
+
+
+
+        default:
+
+
+              }
+      
+
+task: user enter a day number between 1-7
+ 
+print respective day of the week
+
+input: 2
+output: Tuesday
+
+
+
+Day 15:
+
+c-> function
+
+java- > methods
+
+
+a method  a block of code that perform a specific task.
+
+ 
+it helps in breaking code in to smaller and reusable parts.
+
+
+humans -> program
+
+method1 -> carpentering -> carpenter
+
+method2 -> house construction -> Mason
+
+method 3 -> gardening -> gardener
+
+
+why use methods:
+
+to avoid code repetition
+
+to improve code readability
+
+to make code modular
+
+
+methods are of two main types:
+
+1. built in methods:
+
+these are methods already present in the program they are already pre defined functions, we can use them by just calling.
+
+ ex: println(), print(), printf()
+
+
+2. user defined methods
+ 
+  these are the methods those are created by user itself for performing a 
+
+specific task.
+
+Syntax of UD function:
+
+// it should be return outside of the main block.
+
+   returntype methodname (parameters){ //function declaration
+
+     //block  of code   } function definition
+
+
+    }
+
+
+   function call must be done in main function
+
+  // calling should be done in main method.  methodname(parameters) ; //function call
+
+return type: it tells the type of the value what function is giving at the end.
+
+ex: add() -> 10+20 = 30 -> int
+    markscal() -> 9.8 -> float
+
+if no return type then we have to place void (null/nothing).
+
+if you write return type in function declaration we must place return keyword with return value at the end of the program.
+
+ ex: return 30;
+   
+    c=a+b;
+   return c;
+
+    return a+b;
+
+then return statement is the end line of the function.
+
+
+Method name:
+
+ it tells what functionality we have inside method.
+  
+
+  add() -> addition 
+  sub() -> subtraction
+
+  methods name may always written  in the form of camel case
+
+  camel case: if two words are there we are not allowed to give space
+camel case makes except first word remaining all word first letter capital.
+
+  additionFunctionality
+  
+parameters:
+
+ these are the values that function  may get from the call.
+
+add(int a, float b);
+
+
+the parameters are of two types:
+
+Actual parameters : the parameters which were passed in main method through function call.
+
+  add(10,20) ;
+
+Formal parameters:
+
+the parameters received during function declaration
+
+int add(int a, int b){
+
+}
+
+
+
+Day 16:
+
+
+different ways of method.
+
+
+1. return type 
+2. parameters
+
+4 ways:
+
+
+method with return type and parameters
+
+method with return type and no parameters
+
+method with out return type and have parameters
+
+method with out return type and no parameters
+
+
+
+Types of parameter passing techniques in java:
+
+
+1. call by value: here we send a copy of the value to the method.
+  
+   the original value cant send we send only duplicate value so here original value doesn't change.
+
+
+2. call by reference (address)
+
+   here the address of a value /variable will be passed 
+    
+  the original value will be sent from actual to formal parameters.
+
+  if any changes the original value will be changed.
+
+day 17:
+
+Recursion:
+
+
+it is a technique where a method calls itself directly or indirectly to solve problem.
+
+
+why use recursion?
+
+simplify complex problem
+help breaking a task in to smaller sub tasks.
+
+
+Basic rule of recursion:
+
+every function must have :
+
+1. base case : the condition where recursion stops.
+
+2. recursive case:  the part where the function calls itself.
+
+
+example:
+
+factorial of  a number.
+
+
+factorial of 5:
+
+
+5*4*3*2*1=120
+
+7!:
+
+7*6*5*4*3*2*1
+
+= 5040
+
+
+
+recursion use stack trace:
+
+
+print(3)-> print(2)-> print(1)->print(0)
+
+
+print(0) return (nothing happen) -> print(1) print -> print(2) prints -> print(3)
+
+
+
+Comments:
+
+
+
+judge -> comments
+
+work ->comments
+
+advices -> comments 
+
+
+
+comments are ignored by compiler. they are useful for explaining the logic of code.
+
+
+1. single line comments:
+
+  used to add note in one line.
+  
+  syntax:  // content (single line comment
+
+2. multi line comment
+
+   used to write longer comments across multiple lines
+
+   /*
+
+     1 st line
+     2
+     3
+
+
+   */
+
+
+ keywords:
+
+these are the reserved words in java that have predefined meanings
+
+you cannot use them as:
+
+variable names
+
+method names
+
+class names
+
+
+java have 50+ reserved keywords
+
+they all are case sensitive (all are lower case)
+
+
+
+int float Boolean char if else for while do break continue class public private protected
+
+static void return catch 
+
+int i=20;
+
+int static =10; //wrongX
+
+
+
+
+day 18:
+
+
+Array
+
+
+data types:
+
+
+non primitive :  used to store more than one value with a single reference.
+
+
+1. Arrays
+
+2. Strings
+
+
+1. Arrays:
+
+an array in java is a collection of elements with same data type stored in a contiguous memory location with in a single reference/variable.
+
+
+syntax:  
+
+   datatype array_name[] = new datatype[size];
+
+   int a[]=new int[10];
+
+  new -> it is used to assign or initialize memory.
+
+
+   int a[]={10,20,30,40};
+
+
+Accessing:
+
+indexing:
+
+positive indexing:
+
+index: it is an position of an element in array.
+
+index always starts from 0 to n-1.
+
+  int a[]={10,20,30,40};
+
+
+    10 -> 0
+
+    20 -> 1
+   
+    30 -> 2
+  
+    40 -> 3
+
+
+
+
+Day 19:
+
+types of arrays in java:
+
+one dimensional array
+
+ only one dimension is there we can store set of elements at a time.
+
+  int a[]=new int[10];
+  int a[]={10,20,30};
+
+
+two dimensional array:
+
+in java 2D array is like a table.
+
+table is nothing but rows and columns
+
+it is also called as array of arrays.
+
+here the array represented as matrix.
+
+
+syntax:  int array_name  [][] =new int [rows] [columns];
+
+    
+      int a[][]=new int[3][3];
+
+
+      int a[][] ={{1,2,3},{4,5,6},{7,8,9}};
+
+
+Accessing:
+
+we have to specify both row and column index of a specific element to access.
+
+
+println( a[1][2]);;
+
+
+
+
+
+n dimensional array
+
+3
+
+
+cube like structure
+
+int a[][][] = new int  [2][3][3];
+
+ 
+
+
+{
+
+{
+
+{1,2,3},
+{},
+{}     a[0][0][0]
+
+}
+
+,
+{
+{},
+{},
+{}
+}
+
+
+
+
+}
+
+
+
+
+Day 20:
+
+
+Non primitive
+
+1. Array
+
+2. String:
+
+
+a String in java is a sequence of characters.
+
+like a word, sentence, paragraph.
+
+you must declare string in double quotes only.
+
+the string in java declared using data type String class.
+
+
+the string class resides java.lang package
+
+strings are immutable (once created cannot be changed)
+
+Syntax:
+
+ 
+String variable_name = " value ";
+
+String name = "Tharun";
+
+ways to create String:
+
+1. using string literal (recommended) : 
+
+ literal is nothing but variable
+
+  String name = "Tharun";
+
+2. using new keyword:
+
+    
+   String variable_name = new String ("Tharun");
+
+
+
+the main difference between two ways of creating string is the first one i.e taking string as a literal
+
+it will stored in stack or heap ,
+
+but if we declare string using new keyword a string object those will be stored in string pool.
+
+
+
+
+Accessing String:
+
+Indexing:
+
+ Tharun
+ 012345
+
+
+s="THARUN"
+
+for accessing particular character in a string using indexing we need to use an inbuilt method called
+
+charAt(index)   -> it will return character at given index
+
+variable_name.charAt();
+
+s.charAt(0);
+
+length() function used to find the length of the string  
+
+
+
+Day 21:
+
+String functions:
+
+these are in built functions (pre defined functions)
+
+
+there are several string handling functions in java they are:
+
+1. length():
+
+it is used to calculate the length of the string. this function returns the count of characters in it.
+
+
+2. charAt():
+
+this function is used to find character at given position/index.
+
+
+3. substring():
+
+it is used the specific part of a string with in the string by giving start and end ranges.
+
+helloworld
+sname.substring(start, end-1); hellow
+
+end is exclusive start is inclusive
+
+4. equals():
+
+to check whether both strings are equal or not (case sensitive)
+
+java java
+
+it returns true when both strings are equal otherwise false
+
+
+5. equalsIgnoreCase():
+
+it ignores case sensitivity (case insensitive)
+
+6. toUppercase():
+
+it converts lowercase letters in to uppercase
+
+7. toLowerCase():
+
+it converts uppercase letters in to lowercase
+
+
+8. contains():
+
+checks the presence of the given string in original string
+if there it returns true otherwise false.
+
+9. startswith():
+
+begins with means it checks whether the  original string starts with given string the it return true.
+
+10. endsWith():
+
+ends with means it checks whether the  original string ends with given string the it return true.
+
+
+
+Day 22:
+
+11: indexOf():
+
+this function is used to return the index of particular character.
+
+it returns only the index of first appeared character
+
+if the character is not there in the given string then it returns -1
+
+javaaaaaa s.indexOf('a');  
+
+
+12. lastIndexOf(): it returns the index of last appeared character
+
+java   s.lastIndexOf('a'); 3
+
+13. replace():
+
+this function is used to replace the given string with original string.
+
+ var.replace(originalstring , replacement string);
+
+
+14: trim():
+
+this function is used to remove spaces from left and right of the string
+
+15. toCharArray():
+this function is used to convert the string in to character array.
+
+string s="java";
+char arr[] ={'j','a','v','a'};
+
+
+16: split():
+
+this function is used to split the string in to array at given character .
+
+s="java, python, c";
+
+["java", "python", "c"];
+
+17 . compareTo() :
+
+this function is used to compare the given string with another string in lexicographical order
+
+s="b"
+s.compareTo("b")  '
+
+
+if original string lesser than comparing string the it returns -1
+
+if original string greater than comparing string the it returns 1
+
+
+if both are equals the it returns 0
+
+
+
+
+
+ 18: compareToIgnoreCase():
+
+it used to compare two strings with out case checking
+
+19: isEmpty() :
+
+it returns true if string length is 0
+
+
+20:concat:
+
+it is used to attach the given string with original string at end.
+
+
+
+Day 23:
+
+validations:
+
+high level validations
+
+password validation
+
+valid measures for strong password:
+
+
+it must contain at least one upper character
+it must contain at least one lower character
+it must contain at least one digit 
+it must contain at least one special character
+the password length must be >=8 and <=15
+Priya -> Priya@2006  valid and strong passwords
+
+
+string if any character or digit place in a double quotation the its a string
+
+
+email validation:
+
+
+the email must have @gmail.com at the end @outlookmail.com 
+ @yahoo.com @tcs.com @deloitte.com @google.com
+
+
+Day 24:
+
+Java and oops
+
+java is a programming language 
+
+
+oops->. it is concept or it is approach or it is a paradigm(a set of concepts)
+
+oops using java 
+
+
+oops + java
+
+oops -> Object Oriented Programming 
+
+
+there are two types of approaches in programing:
+
+1. Procedural oriented programming (POP):
+
+oldest and less secured blind approach. code is written as a series of steps (functions)
+
+data and functions are separates 
+as a code grows, its harder to manage , debug, and extend.
+
+less security for data 
+ 
+2. Object oriented programming (OOP)
+ 
+structure code like real world objects
+
+combine data and functions together 
+
+make code reusable , security , manageable
+
+
+class -> blue print
+  
+   we must write every program inside class itself
+    
+   we can write n number of classes
+
+    the main function must be written in a classes which named same as file.
+
+    class syntax:
+
+
+     class class_Name{
+    
+
+           }
+ a class is a blue print which have data members and member functions.
+
+  A class name must start with capital letter
+
+  data members -> variables
+
+  member functions -> methods
+ 
+we use class and its methods or variables only by using object.
+
+   class House{
+
+          int iron = 2;
+          int cementbags =500;
+           
+          float money= 1050000.25;
+        
+           void mason(){
+               println("I started constructiong");
+
+          }
+          void carpenter(){
+          println("I am  making a chair");
+         }
+         
+}
+
+
+Object -> model
+
+what are four pillars of oops:
+
+polymorphism
+
+Inheritance
+
+Encapsulation
+
+Abstraction
+
+
+
+day25:
+
+Object:
+
+An object is an real world entity -  anything that has state (data / variables) and behaviour (method / actions)
+
+
+
+a pen 
+
+a book
+
+a paper
+
+
+
+Object = instance of class
+
+
+Real time example: Mobile phone
+
+  lets say your mobile phone have:
+
+  
+     State (data/ variables/ fields):
+
+            brand
+            price 
+            color 
+            RAM  
+            ROM    
+     Behaviour ( actions / Methods):
+ 
+            call();
+
+            PlayMusic();
+
+            takePhoto();
+
+   
+to create a mobile phone from the above class we must create  an object.
+
+
+Syntax:
+
+
+Class_Name  objectname = new Class_Name();
+
+Mobile Samsung = new Mobile();
+
+Mobile = class name which we want to create an object
+
+
+Samsung = object name that we are creating for mobile class
+
+
+new =  Memory allocation for object
+
+Mobile() -> to initialize class members
+
+
+
+rules:
+
+
+objects  must be written in inside the main function only.
+
+using class members and members functions syntax:
+
+ for accessing
+
+objectName.variablename;
+
+for updating:
+
+  objectname.variablename = value;
+
+
+for calling methods:
+
+ objectname.method();
+
+
+task:
+
+class          objects              fields                     methods
+
+car           swift Audi tesla   color , speed, Model      Start(), break(), horn()
+
+student       THARUN,ravi         name, age, marks, id     study(), sleep(), write()
+
+
+BankAccount   SBIACC, HDFCACC   accno, balance, holdername   deposit(), withdraw()
+
+
+
+
+
+
+Day 26:
+
+inheritance:
+
+inheritance is a process where one class acquires the properties and behaviours (methods) of another class.
+
+it promotes code reusability
+
+helps in building relationship between classes
+
+in java we have 5 types of inheritances:
+
+
+in inheritance we use two terns they are 
+
+1. parent class -> the class which giving its properties through inheritance
+
+2. child class  ->the class which acquiring properties from parent through inheritance
+
+
+1. single  -> where only one parent and one child , the child class acquires only characters  from its parent class only.
+
+2. multiple -> here a single child class can acquire characters from two parents.
+
+3. multilevel -> where parent pass its characters to child class then child becomes  parent then it passes its characters to another child.
+
+here sub child acquires characters from both parent and super parent. 
+
+4. Hierarchical  -> here one parent can be parent for many child classes.
+
+5. Hybrid -> here we can combine any two in heritances in to one.
+
+
+
+
+syntax for inheritance :
+
+
+   parent class {
+
+   
+     }
+
+  child class   extends  parent class{
+
+
+    }
+
+
+extends is used to inherit the properties from one to another class.
+
+
+  
+Day 27::
+
+Multilevel inheritance:
+
+class A -> class B ->  class C
+
+Grandfather -> Father -> child
+
+
+
+Hierarchical inheritance:
+
+one parent  -> chid 1 , child 2, child 3
+
+
+one to many relation
+
+teacher -> 1, 2,3 ....n
+
+
+class Teacher () -> students5
+
+hybrid -> two types mix
+
+multi level and hierarchical
+
+
+multiple:
+
+in java multiple inheritance not supported directly. 
+
+class a   and class b to class c 
+
+
+Day 28:
+
+
+Polymorphism:
+
+poly -> many
+
+morph -> forms
+
+
+A single method behaves differently based on the context.
+
+polymorphism is an OOPS concept which mainly describes a single methods performs different operations.
+
+example:  Water  -> ice water gas 
+
+
+add() -> 2+3 , 2+3+4 , 2+3+4+5, 2+3+4+5+6
+
+there are two in polymorphism:
+
+1. Compile-time polymorphism / static binding / Method overloading
+
+ happens at compile time
+
+same method name but different parameters types or count in same class
+ 
+
+Atm has one withdraw() function:
+
+withdraw() -> card
+
+withdraw() -> using phone
+
+withdraw() -> using QR
+
+
+
+
+
+
+2. Runtime polymorphism  / dynamic binding / method overriding
+
+it happens at run time
+
+
+
+Day 29:
+
+overloading example
+
+
+--------------------------------------------------------------------------------------------------------
+
+day30: Method overriding
+
+
+same method with same parameters in super class and sub class.
+
+
+there will be two classes in a program one class is parent (super class) and another  one inherited (sub class)
+
+we must inherit the sub class to override a method
+
+notification -> 
+
+email notification
+
+sms
+
+ 
+
+day 31 :
+
+Abstraction:
+
+Abstraction means showing only essential details and hiding the internal logic/implementation from the user.
+
+security for application
+
+
+ Abstract -> summary
+
+showing only output or options not the code functionality.
+
+ATM:
+
+1. withdraw
+2.debit
+3.check bal
+4.pin validity
+
+1
+
+500
+
+aval >=500 = aval-500
+
+
+to reduce complexity
+
+to hide irrelevant details from the user
+
+to focus only on high level design
+
+
+
+
+Abstract class -> an abstract class is declared using abstract keyword
+
+syntax:
+
+ 
+
+    abstract  class class_name{
+
+
+     } 
+
+an abstract class  is said to be it supports 0-100% abstract abstraction why?
+
+an abstract class can have both abstract and non abstract methods
+
+
+non abstract methods:
+
+   add(){
+   
+     print (a+b);
+  }
+
+
+abstract methods : a method declared using abstract keyword
+
+
+abstract returntype methodname (parametrs);
+
+abstract void add();
+
+the logic of abstract method will be written in child or inherited sub class of abstract class.
+
+the logic of abstract method hide under overrided method
+
+the abstract class cannot be instantized (we cannot create objects)
+
+
+day 32:
+
+Encapsulation
+
+Access Modifiers:
+
+AM in java control where a class, method, variable can be accessed from.
+
+default:
+
+a class or a variable or a method can be accessed inside same package itself (no keyword used)
+
+class classname{
+
+}
+
+family house -> same house
+
+private: a keyword private is used with a method a variable can only be accessed inside a class
+
+a private properties or behaviours cannot be inherited
+
+your phone password -> only up to u
+
+protected  -> a keyword protected is used, Accessible in the same package + sub classes outside 
+
+
+college -> same college + canteen + ground + park
+
+public ->   Accessible from anywhere
+
+a public park -> open to anyone
+
+
+
+
+Access specifiers -> these are the keywords that change the behaviour or purpose of class members
+
+
+static : belongs to class not for objects , can be accessed with out creating an object / with out instantization 
+
+variable -> if variable is declared as static the variable value shared among all objects
+
+method -> can be called with out object creation
+
+
+final ->
+
+this keyword with variable tells the value cannot be changed once assigned.
+
+abstract
+
+synchronised
+
+volatile
+
+
+Day 33:
+
+encapsulation:
+
+for security purpose.
+
+it is the process of binding data (variables) and code (methods) together and restricting direct access to some of the objects.
+
+
+capsule (medicine) -> it contains medicine a cover wraps the data and protect the medicine. patient doesn't need to know its contents or how it works internally. they use it safely.
+
+
+how to achieve encapsulation:
+
+declare variables as private.
+
+
+provide public getter (is used to access the content in variable) and setter (is used to set the content in to variable) methods. 
+
+
+day 34:
+
+Constructors:
+
+a constructor is a special method that is called automatically when an object is created.
+  
+the constructor name must be same name as class name
+
+class student{
+
+  student(){
+
+  }
+
+}
+
+no return type (not even void) -> the constructor will not return anything
+
+it is used to initialize the objects.
+
+we are not allowed to write any return statement inside the constructor
+ 
+
+
+types of constructor:
+
+
+default constructor :
+
+when we are not writing / defining any constructors java automatically prepares a default constructor. 
+when we create/ define any constructor java will not define default constructor.
+
+
+non parameterized constructor:  if a constructor will not accept parameters or declared with out parameters.
+
+
+
+parameterized constructors: if a constructor defined with or accepting parameters:
+
+
+constructor overloading:
+
+writing same constructor with different parameters in same class.
+
+
+part 2:
+
+
+This keyword:
+
+this refers to current object of the class.
+
+it mainly used to:
+
+resolve naming conflicts between instance variables (the variables which are present in class) and parameters (those passed from constructors).
+
+call other constructors (constructor chaining)
+
+return current object
+
+this.variable = current class variable
+
+this() -> call immediate next constructor
+
+
+Day 35:
+
+packages:
+ 
+A package is a group of related classes , interfaces
+
+
+imagine a world full of toys:
+
+toy cupboard at home:
+
+one box has Puzzles
+
+one box has books
+
+one books has paints
+
+one box has sketches
+
+
+in java packages are like those boxes. 
+
+ code reusability ->  
+
+packages avoid mixing up conflict
+
+
+
+different types of packages in java:
+
+1. user defined packages:
+
+   these packages are defined by user itself based on purpose.
+
+   creation:
+
+    step1:  package creation with package keyword
+
+         package  packagename;
+
+    example:  package calculator;
+   
+  we have to write this statement on the top of the code it must be the first line.
+
+
+
+   2. below the declaration write all the classes regarding the package:
+
+      
+    3. we are not allowed to write main function in user defined packages 
+
+    4. we need to save this program with any name
+   
+    5. we need to create a directory cmd -> mkdir directoryname
+
+    6. to compile it    javac directiryname/filename.java
+
+    7. we no need to run packages because there is no main function.
+ 
+    8. create another program to use package
+
+    9. javac -cp . filename.java (the program file which using created package) -> compilation
+
+   10. java filename
+
+package name should start with small case.
+
+the classes inside package should be public -> make class usable everywhere
+
+
+
+
+2. pre defined packages:
+
+these are the packages those already present we can use them by importing using import statement:
+
+different predefined packages:
+
+lang -> language (math, String, thread ) this packages no need to import
+
+sql -> (contain database connections)
+
+util -> utility package
+
+collections -> different functionalities
+
+
+Import:
+
+the import statement is like calling a friend from another room to help u.
+
+
+import statement is used to import packages or classes from one  to another program.
+
+
+we need to use import keyword.
+
+2 ways to import in java.
+
+1.import a specific class.
+
+import package.classname;
+
+
+2. import all classes from a package
+ for this we can use * symbol it means all
+
+   import package.*;
+
+
+3. no import 
+
+ Kitchen.Knife k=new Kitchen.knife();
+
+
+
+if we are not using import keyword we will get compile error
+
+
+
+
+
+Day 36:
+
+
+Dynamic input -> taking input from user :
+
+for taking dynamic input  in java we need scanner class:
+
+Scanner class -> it is a predefined class  present inside util (utility) package.
+
+
+steps to work with scanner class:
+
+1. we need to import the class from util package.
+  
+   import java.util.Scanner;
+
+ 2. create an object for the scanner class in the main  function.
+
+    Scanner s=new Scanner();
+ 
+
+    we need to pass system input as argument  
+    
+ we need to place System.in in between the brackets
+
+  Scanner s=new Scanner(System.in);
+    
+ 
+3. different types of input:
+
+
+   name  -> String
+
+   phone number -> int
+
+   marks -> double
+  
+   grade (A,O,B,C,D,F) -> char
+
+
+we have different functions for different data type inputs:
+
+the function should be called object.methodname();
+
+the methods for inputs:
+
+ nextInt(); for taking integral inputs with out decimals
+
+ nextLine(); -> for more words sentences
+
+ next() -> for single words
+   
+nextFloat(); for taking float as an input with decimals
+
+nextDouble();
+
+nextBoolean();for taking true or false input
+ 
+
+
+
+2. data and time classes
+
+
+  java provides classes to work with date time and calender
+
+
+ import java.time.*;
+
+1. 
+
+
+
+Day 37:
+
+Random  module in java  
+
+
+module is a class with different functions
+
+set of lines -> program / function -> module -> class -> package -> library -> frame work
+
+java provides a class called Random (java.util.Random) to generate random numbers  -> like dice rolling  or picking a name from hat. 
+
+
+we need to import random module 
+
+create an object for random module
+
+we can use random module methods:
+
+nextInt() -> to generate any integer (that can be +ve or negative)
+
+nextInt(n) -> to generate numbers from 0-n-1 (here n is a exclusive)
+
+nextDouble()  -> random decimals between 0.0-1.0
+
+nextBoolean() -> random true or false
+
+nextFloat() -> random float
+
+
+Day 38:
+
+
+exception handling:
+
+
+error / exception:  An exception is an error that occurs at runtime and interrupts the normal flow of the program
+
+category of errors:
+
+1.compile time error ": is an error occurs at compile time because of syntactical issues
+
+
+2. runtime error : it occurs at runtime because of logical issues.
+
+divisible by 0 we are not allowed to write 0 in denominator the division occurs for infinite 
+
+
+ArthmeticException   -> divided by 0
+
+ArrayIndexOutOfBoundsException -> Accessing array out of index count
+
+NullPointerException  -> using object that not initialized 
+
+InputMismatchException -> wrong input type using scanner 
+
+keywords for exception handling:
+
+try   : it is a block of code that may have an error:
+
+
+syntax:  try {
+
+           //code
+
+
+              }
+
+
+catch : this block will catch the exception that has thrown by try block.
+
+        catch have an object of exception means what error It might be .
+
+        catch (Exceptionname object ){
+
+          }
+  with out try we are not allowed to write catch
+
+  we can have multiple catch statements
+
+throw : if you want to throw exception manually (customised exception)
+
+throws :  declares exception in method signature
+
+finally : if there is no error in code or if there is error in code the and only block which executes is finally.
+
+
+Day 39:
+
+Fie handling:
+
+data:
+
+it is a collection of raw facts or unprocessed facts. text, image, music... 
+
+information:
+
+processed data is called as information, decision making, classify.....
+
+
+file:
+
+file is storage unit it have data or information.
+
+excel file  .xlsx
+
+python     .py
+
+java     .java
+
+ms word   .docx, .doc
+
+powerpoint  .pptx
+
+executable  .exe -> it contains binary data
+
+
+file handling:  
+
+
+file handling means creating , write, read, update, deleting file in your computer using java code
+
+CRUD -> create, read, update, delete
+
+
+why file handling:
+
+.pdf, .png, .jpg
+
+
+
+java provides these main classes:
+
+File ->  create, delete, check file
+
+FileWriter-> write data in to file
+
+FileReader ->  read data from file
+
+All file related classes will be there in io package.
+
+java.io.<classname>;
+
+
+
+
+interface
+
+type casting 
+
+wrapper class
+
+GitHub
+
+collection framework array list
+
+major pro-1
+
+major -2
+
+programs
+
+
+day 40:
+
+Multi Threading:
+
+instruction -> a line of code
+
+Thread -> like a mini program or light weight process inside your main program that runs independently
+
+program -> set of instructions
+
+process -> a program that runs between CPU and main memory is called as process.
+
+multi threading: in java it means executing two or more threads at a same time, allowing a program to do multiple tasks simultaneously
+
+why use threads:
+
+speed up the performance
+
+efficient use of cpu
+
+run background tasks
+
+There are two ways to create a thread in java:
+
+1. extend Thread class -> there is an inbuilt class in java in lang package we need to inherit the thread class and override run() 
+
+2. implement runnable interface -> create class implement the interface override run method()
+
+
+run() ->  a place for thread
+
+start -> start a new thread and then calls run()
+
+
+to delay thread -> Thread.sleep(milliseconds)
+
+Thread Life cycle:
+
+new      -> born stage (thread is created but not yet started) 
+
+object creating phase
+
+runnable -> ready to run -> thread is ready to run WAITING FOR YOU
+
+start()
+
+running -> currently executing its run() method
+
+blocked/waiting -> thread is paused waiting for some other resource
+
+terminated -> dead , thread completed execution and gets interrupt
+
+
+
+thread priority:
+
+in java each and every thread have priority (1 to 10) it helps the cpu decide which thread to run first
+
+
+Thread.MIN_PRIORITY -> 1
+
+Thread.NORM_PRIORITY -> 5
+
+Thread.MAX_PRIORITY  -> 10
+
+Thread priority setting:
+
+thread.setPriority(Thread.MIN_PRIORITY)
+
+thread.setPriority(3)
+
+
+Day 41:
+
+Interfaces:
+
+in java multiple inheritance no supported directly so we need a way to implement multiple inheritance
+
+AN interface in java is a collection of abstract methods (methods with out a body) that other class must implement
+
+an interface is also a class
+
+we need interface keyword to implement interface concept
+
+
+we are not allowed to write anything other than abstract method.
+
+interface supports 100% abstraction 
+
+syntax of an interface:
+
+
+interface interfacename{
+
+  void method();
+
+   int method(int a, int b);
+
+
+
+}
+
+if one class want to inherit another class we need extends
+
+if one class want to inherit interface then we need implements
+
+if we want to place an abstract method in class there we need to add abstract keyword before the method name, but in interface the methods are default to be abstract.
+
+
+
+
+type casting:
+
+type casting is converting  one data type to another data type.
+
+widening
+
+converting small data type to large data type
+
+java will automatically convert
+
+int -> double
+
+narrowing
+
+converting large data type to small data type
+
+there will be a chance of losing data
+
+we need to manually cast (may lose data)
+
+
+int -> float widening
+
+float -> int narrowing
+
+char-> int widening 
+
+int -> char narrowing
+
+byte -> int widening
+
+int -> byte narrowing 
+
+
+Day 42:
+
+wrapper  class:
+
+A wrapper class is a class that wraps a primitive data type in to object.
+
+int     -> Integer
+
+char    -> Character
+
+double  -> Double
+
+float   -> Float
+
+long    -> Long 
+
+short   -> Short
+
+byte    -> Byte
+
+boolean  -> Boolean
+
+primitive data type  -> loose apple
+
+wrapper class -> apple backed in box (Object form)
+
+
+why use wrapper class?
+
+to store primitive values as objects
+
+to use collections like array list
+
+to use auto boxing/ unboxing
+
+int a=10;
+
+
+//manual way (deprecated)
+
+Integer obj = new Integer(a); 
+
+//Automatic way (auto boxing)
+
+Integer obj2 = a;
+
+Auto boxing and Un boxing
+
+Auto boxing -> primitive -> wrapper class  ex: Integer x=5;
+
+Unboxing -> wrapper -> primitive  ex: int y=x;
+
+
+Collection frame work:
+
+A collection in java is a group of objects stored together as a single unit.
+
+A set of interfaces and classes
+
+That helps in storing, retrieving, Manipulating and transferring data.
+
+works with objects(not primitive)
+
+
+Hierarchy of collection framework:
+
+Collection (Interface)
+
+|-> List
+|    |-> ArrayList
+|    |-> Linked List
+|    |-> Vector
+|
+|
+|-> Set
+|    |-> HashSet
+|    |-> TreeSet
+|
+|
+|____|-> queue 
+            |-> priority queue
+
+
+
+what is ArrayList:
+
+   ArrayList in java that stores resizable array.
+
+  It grows or shrinks automatically when elements are added or removed 
+
+  ordered (Maintain Insertion order)
+
+  Allow Duplicates
+
+  Can grow dynamically
+
+  Only stores objects, not primitive types
+
+
+
+address:
+
+import java.util.ArrayList;
+
+creation of arraylist:
+
+ArrayList<Type>  objectname=new ArratList<> ();
+
+
+ArrayList<String> fruits = new ArrayList<>();
+
+ArrayList<Integer> numbers = new ArrayList<>();
+
+
+methods of array list:
+
+object name. add(value) -> add element at the end
+
+add(index, value) -> at a specific position
+
+get(index) -> get element at index
+
+set(index, value) -> update value at index
+
+remove(index) -> remove by index
+
+remove(object) -> remove first occurrence
+
+size() -> number of elements
+
+contains(value)-> check if element exists
+
+clear() -> remove all elements
+
+isEmpty() -> return true if list is empty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
